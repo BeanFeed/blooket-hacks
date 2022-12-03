@@ -47,4 +47,4 @@ function footer() {
     });
 };
 
-footer();
+//footer();
