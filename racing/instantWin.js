@@ -57,4 +57,4 @@ function footer() {
     });
 };
 
-footer();
+//footer();
