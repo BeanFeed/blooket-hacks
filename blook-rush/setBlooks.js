@@ -55,4 +55,4 @@ function footer() {
     });
 };
 
-footer();
+//footer();
