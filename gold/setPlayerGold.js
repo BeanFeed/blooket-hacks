@@ -60,4 +60,4 @@ function footer() {
     });
 };
 
-footer();
+//footer();
