@@ -52,4 +52,4 @@ function footer() {
     });
 };
 
-footer();
+//footer();
