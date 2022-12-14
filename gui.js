@@ -545,12 +545,13 @@ details summary ~ * {
                     Array.from(document.body.querySelectorAll('div[class*="answerText"]')).filter(t => t.firstChild.innerHTML == reactHandler().memoizedProps.client.question.correctAnswers[0])[0].click();
                 } catch { };
             };
+            autoAnswer = !autoAnswer;
         };
         if (highlightAnswers) {
             try {
                 Array.from(document.querySelector('div[class*="answersHolder"').children).forEach(x => {
                     if (reactHandler().memoizedState.question.correctAnswers.includes(x.innerText) || reactHandler().memoizedProps.client.question.correctAnswers.includes(x.innerText)) x.firstChild.style = 'background-color: rgb(0, 207, 119);';
-                    else x.firstChild.style = 'background-color: rgb(225, 40, 33);';
+                    else x.firstChild.style = 'background-color: rgb(245, 15, 222);';
                 });
             } catch { }
         };
