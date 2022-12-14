@@ -654,7 +654,7 @@ details summary ~ * {
         e.code == 'KeyE' && (GUI.hidden = !GUI.hidden)
     };
     function toggleAuto(e) {
-        e.code == 'KeyA' && (autoAnswer = !autoAnswer)   
+        e.code == 'ShiftLeft' && (autoAnswer = !autoAnswer)   
     }    
     addEventListener('keypress', toggleHidden);
     addEventListener('keypress', toggleAuto);
